@@ -1,6 +1,11 @@
-day_list = ['pon','śro','pią','sob']
+class Car:
+   def __init__(self, make, model_name, top_speed, color):
+       self.make = make
+       self.model_name = model_name
+       self.top_speed = top_speed
+       self.color = color
 
-day_list.insert(1,'wto')
-day_list.insert(3,'czw')
-day_list.insert(6,'nie')
-print(day_list)
+
+mustang = Car(make="Ford", model_name="Mustang", color="Yellow", top_speed=250)
+print(mustang)
+print(mustang.make)
